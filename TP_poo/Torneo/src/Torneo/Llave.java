@@ -3,14 +3,14 @@ import java.util.ArrayList;
 
 public class Llave extends EtapaMudial {
 	
+	public Llave(String descripcionEtapa, ArrayList<Partido> partidos, ArrayList<Equipo> equiposQueAvanzan) {
+		super(descripcionEtapa, partidos, equiposQueAvanzan);
+		// TODO Auto-generated constructor stub
+	}
+
 	private ArrayList<Equipo> equiposQueAvanzan;
 	
-	public Llave() {
-	}
-	
-	public Llave (String descripcionEtapa) {
-        this.equiposQueAvanzan = new ArrayList<Equipo>();
-    }
+
 
 	@Override
 	public ArrayList<Equipo> getEquiposQueAvanzan(){
