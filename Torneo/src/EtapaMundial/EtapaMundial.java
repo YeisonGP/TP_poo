@@ -1,0 +1,5 @@
+package EtapaMundial;
+
+class EtapaMundial {
+
+}
