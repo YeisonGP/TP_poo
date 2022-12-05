@@ -1,66 +1,51 @@
 package vehiculos;
-public class Auto extends Vehiculo {
+public class Auto {
 	
-	private int cantidad_de_puertas;
+
 	private String marca;
-	
-	
-
-	public Auto(String motor, int combustible, boolean encendido, String matricula, int ruedas, boolean desplazarse,
-			int cantidad_de_puertas, String marca) {
-		super(motor, combustible, encendido, matricula, ruedas, desplazarse);
-		this.cantidad_de_puertas = cantidad_de_puertas;
+	private int cantPuertas; 
+	private int km;
+	private int cantRuedas;
+	public Auto(String marca, int cantPuertas, int km, int cantRuedas) {
+		super();
 		this.marca = marca;
+		this.cantPuertas = cantPuertas;
+		this.km = km;
+		this.cantRuedas = cantRuedas;
 	}
-
-
-
-	public Auto(String motor, int combustible, boolean encendido, String matricula, int ruedas, boolean desplazarse) {
-		super(motor, combustible, encendido, matricula, ruedas, desplazarse);
-		// TODO Auto-generated constructor stub
-	}
-
-
-
-	public int getCantidad_de_puertas() {
-		return cantidad_de_puertas;
-	}
-
-
-
-	public void setCantidad_de_puertas(int cantidad_de_puertas) {
-		this.cantidad_de_puertas = cantidad_de_puertas;
-	}
-
-
-
 	public String getMarca() {
 		return marca;
 	}
-
-
-
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
-	
-	public void setDesplazarse(boolean desplazarse) {
-		super.desplazarse = desplazarse;
+	public int getCantPuertas() {
+		return cantPuertas;
 	}
-
-
-
+	public void setCantPuertas(int cantPuertas) {
+		this.cantPuertas = cantPuertas;
+	}
+	public int getKm() {
+		return km;
+	}
+	public void setKm(int km) {
+		this.km = km;
+	}
+	public int getCantRuedas() {
+		return cantRuedas;
+	}
+	public void setCantRuedas(int cantRuedas) {
+		this.cantRuedas = cantRuedas;
+	}
 	@Override
 	public String toString() {
-		return "Auto [cantidad_de_puertas=" + cantidad_de_puertas + ", marca=" + marca + ", desplazarse=" + desplazarse
-				+ ", getCantidad_de_puertas()=" + getCantidad_de_puertas() + ", getMarca()=" + getMarca()
-				+ ", getMotor()=" + getMotor() + ", getCombustible()=" + getCombustible() + ", isEncendido()="
-				+ isEncendido() + ", getMatricula()=" + getMatricula() + ", getRuedas()=" + getRuedas()
-				+ ", isDesplazarse()=" + isDesplazarse() + ", toString()=" + super.toString() + ", getClass()="
-				+ getClass() + ", hashCode()=" + hashCode() + "]";
+		return "Auto [marca=" + marca + ", cantPuertas=" + cantPuertas + ", km=" + km + ", cantRuedas=" + cantRuedas
+				+ "]";
 	}
+	
+	
 
 	
-	
-	
 }
+	
+
