@@ -1,4 +1,4 @@
-
+package vehiculos;
 public class Moto extends Vehiculo{
 
 	private String marca;

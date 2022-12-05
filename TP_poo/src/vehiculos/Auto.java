@@ -1,4 +1,4 @@
-
+package vehiculos;
 public class Auto extends Vehiculo {
 	
 	private int cantidad_de_puertas;
