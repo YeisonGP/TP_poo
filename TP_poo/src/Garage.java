@@ -2,13 +2,11 @@
 	import vehiculos.Moto;
 public class Garage {
 
-			private String tipoV;
 			private String nombreGarage;
 			private double precioCambio; 
 			private double cambioCubiertas;
 			private double kMA;
 			private double kMM;
-			private int vMax;
 			private int capacidad;
 			private int ingAuto;
 			private int ingMoto;
@@ -16,8 +14,6 @@ public class Garage {
 			private int cantidadDeClientes = 0;
 			private int cantidadDeAutos = 0;
 			private int cantidadDeMotos = 0;
-			private int kMoto;
-			private int kAuto;
 			private Moto[] motos;
 			private Auto[] autos;
 	
@@ -38,14 +34,7 @@ public class Garage {
 			public void alertaVehiculos() {
 
 			}
-			
-			public String getTipoV() {
-				return tipoV;
-			}
 
-			public void setTipoV(String tipoV) {
-				this.tipoV = tipoV;
-			}
 
 			public double getPrecioCambio() {
 				return precioCambio;
@@ -80,13 +69,6 @@ public class Garage {
 			}
 
 
-			public int getvMax() {
-				return vMax;
-			}
-
-			public void setvMax(int vMax) {
-				this.vMax = vMax;
-			}
 
 
 
@@ -144,22 +126,6 @@ public class Garage {
 
 			public void setCantidadDeMotos(int cantidadDeMotos) {
 				this.cantidadDeMotos = cantidadDeMotos;
-			}
-
-			public int getkMoto() {
-				return kMoto;
-			}
-
-			public void setkMoto(int kMoto) {
-				this.kMoto = kMoto;
-			}
-
-			public int getkAuto() {
-				return kAuto;
-			}
-
-			public void setkAuto(int kAuto) {
-				this.kAuto = kAuto;
 			}
 
 			public Moto[] getMotos() {
