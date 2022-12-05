@@ -5,7 +5,7 @@ public class Vehiculo {
 	private boolean encendido;
 	private String matricula;
 	private int ruedas;
-	public boolean desplazarse =false;
+	public  boolean desplazarse =false;
 	public Vehiculo(String motor, int combustible, boolean encendido, String matricula, int ruedas,
 			boolean desplazarse) {
 		super();
