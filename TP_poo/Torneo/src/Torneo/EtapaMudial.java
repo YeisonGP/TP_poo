@@ -1,4 +1,5 @@
 package Torneo;
+import Torneo.Partido;
 import java.util.ArrayList;
 public class EtapaMudial {
 
