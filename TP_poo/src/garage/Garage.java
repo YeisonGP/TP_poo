@@ -1,3 +1,4 @@
+package garage;
 	import vehiculos.Auto;
 	import vehiculos.Moto;
 public class Garage {
@@ -67,9 +68,6 @@ public class Garage {
 			public void setkMM(double kMM) {
 				this.kMM = kMM;
 			}
-
-
-
 
 
 			public int getCapacidad() {
