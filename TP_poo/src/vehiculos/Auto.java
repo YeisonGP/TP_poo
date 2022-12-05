@@ -1,4 +1,5 @@
 package vehiculos;
+
 public class Auto {
 	
 
@@ -6,6 +7,7 @@ public class Auto {
 	private int cantPuertas; 
 	private int km;
 	private int cantRuedas;
+
 	public Auto(String marca, int cantPuertas, int km, int cantRuedas) {
 		super();
 		this.marca = marca;

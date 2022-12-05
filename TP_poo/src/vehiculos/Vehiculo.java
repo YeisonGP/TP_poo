@@ -14,6 +14,9 @@ public class Vehiculo {
 	private String nombre;
 	private String telefono;
 	private String direccion;
+	private persona[]persona;
+	private Auto[]Auto;
+	private Moto[]Moto;
 	public Vehiculo(String motor, int combustible, boolean encendido, String patente, int ruedas, boolean desplazarse,
 			String ntitular, String dniTitular, String dni, String nombre, String telefono, String direccion) {
 		super();

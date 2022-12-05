@@ -1,6 +1,6 @@
 package garage;
-	import vehiculos.Auto;
-	import vehiculos.Moto;
+	import vehiculos.Vehiculo;
+	import persona.persona;
 public class Garage {
 
 			private String nombreGarage;
@@ -15,8 +15,8 @@ public class Garage {
 			private int cantidadDeClientes = 0;
 			private int cantidadDeAutos = 0;
 			private int cantidadDeMotos = 0;
-			private Moto[] motos;
-			private Auto[] autos;
+			private Vehiculo[] Vehiculo;
+			private persona[]persona;
 	
 			
 			public Garage() {
@@ -124,22 +124,6 @@ public class Garage {
 
 			public void setCantidadDeMotos(int cantidadDeMotos) {
 				this.cantidadDeMotos = cantidadDeMotos;
-			}
-
-			public Moto[] getMotos() {
-				return motos;
-			}
-
-			public void setMotos(Moto[] motos) {
-				this.motos = motos;
-			}
-
-			public Auto[] getAutos() {
-				return autos;
-			}
-
-			public void setAutos(Auto[] autos) {
-				this.autos = autos;
 			}
 
 			public void setNombreGarage(String nombreGarage) {
